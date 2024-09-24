@@ -8,6 +8,7 @@ body{
 .topnav {
     background-color: #8C8D93;
     overflow: hidden;
+    width: 100%;
   }
   
 
@@ -84,7 +85,7 @@ body{
         }
 
         /* welcome header*/
-       h1{
+       .welcomeHeader{
         color: #ffffff;
         font-size: 40px;
         font-family: "Poppins", sans-serif;
