@@ -3,6 +3,44 @@ body{
     background-color: #232532;
 }
 
+
+
+.topnav {
+    background-color: #8C8D93;
+    overflow: hidden;
+  }
+  
+
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 5px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ 
+  .topnav a:hover {
+    color: #333;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+  }
+  
+  .topnav a.active {
+    color: white;
+    font-size: 28px;
+    font-family: "Poppins", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 3px;
+  }
+
 /* Juliette (Individual)*/
 
     /* Page .... */
@@ -75,7 +113,9 @@ body{
         /* log in button*/
        .button1{
         background-color:#784DF4 ;
-        width: 200px;
+        width: 300px;
+        height: 80px;
+        border-radius: 25px;
         }
 
         /* text before the link to swicth form login to sign up*/
@@ -107,6 +147,7 @@ body{
         font-family: "Poppins", sans-serif;
         font-weight: 300;
         font-style: normal;
+        margin: 5px;
         }
 
         /*movie titles uses h6*/
