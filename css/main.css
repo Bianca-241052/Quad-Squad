@@ -94,6 +94,9 @@ body{
   .innerBlock{
     width: 420px;
     background: transparent;
+    border: 2px solid rgba(35, 37, 50, 100);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     color: #ffffff;
     border-radius: 10px;
     padding: 30px 40px;
