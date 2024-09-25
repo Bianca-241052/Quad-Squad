@@ -42,162 +42,205 @@ body{
     margin-top: 3px;
   }
 
-/* Juliette (Individual)*/
+/*all text */
 
-    /* Page .... */
+  /*nav text*/
 
-        /*movie titles*/
-        h8{
-            color: #ffffff;
-            font-size: 64px;
-            font-family: "Poppins", sans-serif;
-            font-weight: 700;
-            font-style: normal;
-            }
+    /*links to other pages non-active text*/
+    h6{
+     color: #ffffff;
+     font-size: 24px;
+     font-family: "Poppins", sans-serif;
+     font-weight: 300;
+     font-style: normal;
+     }
 
-        /* info on movies uses h6*/
-
-        .button3{
-            background-color:#784DF4 ;
-            width: 200px;
-        }
-        
-
-/* Bianca (Homepage)*/
-
-    /* Homepage */
-
-        /* CSS Type */
-
-/* Andre (Sign-In & Watchlist)*/
-
-    /* Pages .... */
-
-    /* sign in .... */
-
-       /* welcome header*/
-       .h1{
-        color: #ffffff;
-        font-size: 40px;
-        font-family: "Poppins", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        }
-
-        /* welcome header*/
-       .welcomeHeader{
-        color: #ffffff;
-        font-size: 40px;
-        font-family: "Poppins", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        }
-
-        /* email and password */
-       h2{
-        color: #BAB6B6;
-        font-size: 22px;
-        font-family: "Poppins", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        }
-
-        /* welcome header*/
-       h3{
-        color: #ffffff;
-        font-size: 22px;
-        font-family: "Poppins", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        }
-
-        /* log in button*/
-       .button1{
-        background-color:#784DF4 ;
-        width: 300px;
-        height: 80px;
-        border-radius: 25px;
-        }
-
-        /* text before the link to swicth form login to sign up*/
-       .h4{
-        color: #BAB6B6;
-        font-size: 16px;
-        font-family: "Poppins", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        }
-
-        /* text before the link to swicth form login to sign up*/
-       .h5{
-        color: #ffffff;
-        font-size: 16px;
-        font-family: "Poppins", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        }
-
-        h10{
-          color: #ffffff;
-          font-size: 40px;
-          font-family: "Poppins", system-ui;
-          font-weight: 600;
-          font-style: normal;
-        }
+     /*links to other pages active text*/
+     h11{
+      color: #ffffff;
+      font-size: 28px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      }
+    
+    /*ENG text*/
+    h7{
+      color: #ffffff;
+      font-size: 24px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      }
 
 
-
-    /* watch later .... */
-
-        /*home library watch list links*/
-        h6{
-        color: #ffffff;
-        font-size: 24px;
-        font-family: "Poppins", sans-serif;
-        font-weight: 300;
-        font-style: normal;
-        }
-
-        /*movie titles uses h6*/
-
-  
-
-        /*ENG*/
-        h7{
-        color: #ffffff;
-        font-size: 24px;
-        font-family: "Poppins", sans-serif;
-        font-weight: 500;
-        font-style: normal;
-        }
+  /*andre*/
+  /*sign-in page*/
 
 
-        /* log in button  text for button h4*/
-        .button2{
-        background-color:#AEF504 ;
-        width:200px;
-        }
-      /*year and rating uses h9*/
-        h9{
-            color: #ffffff;
-            font-size: 16px;
-            font-family: "Poppins", sans-serif;
-            font-weight: 300;
-            font-style: normal;
-            }
+    /*welcome header text*/
+    h1{
+     color: #ffffff;
+     font-size: 40px;
+     font-family: "Poppins", sans-serif;
+     font-weight: 700;
+     font-style: normal;
+     }
 
-            
-            h12{
-            color: #ffffff;
-          font-size: 24px;
-         font-family: "Poppins", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-       }
-        
 
-/* Iwan (Library)*/
+    /*email and password text*/
+    h2{
+     color: #BAB6B6;
+     font-size: 22px;
+     font-family: "Poppins", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     }
 
-    /* Page .... */
 
-        /* CSS Type */
+    /*log in button text*/
+    h3{
+     color: #ffffff;
+     font-size: 22px;
+     font-family: "Poppins", sans-serif;
+     font-weight: 700;
+     font-style: normal;
+     }
+
+    /*Don’t have an account? text*/
+    h4{
+     color: #BAB6B6;
+     font-size: 16px;
+     font-family: "Poppins", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     }
+
+
+    /*sign up page link text*/
+    h5{
+      color: #ffffff;
+      font-size: 16px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      }
+
+
+  /*sign up text*/
+
+    /*sign-up page link text*/
+    h10{
+      color: #ffffff;
+      font-size: 40px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      }
+      
+    /*username.ect text uses h2*/
+
+    /*sign up button text uses h3*/
+
+    /*Already have an account? text uses h4*/
+
+    /*log in page link text uses h5*/
+
+  /*watch-list page*/
+
+    /*movie title (card) text*/
+    h12{
+      color: #ffffff;
+      font-size: 24px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      }
+
+    /*YEAR,rating & button text*/
+    h9{
+      color: #ffffff;
+      font-size: 16px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      }
+
+  /*Juliette*/
+
+  /*individual*/
+
+    /*movie title text*/
+    h8{
+      color: #ffffff;
+      font-size: 64px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      }
+
+    /*director,cast,ect. text uses h6*/
+
+    /*button text uses h3*/
+
+/*Bianca*/
+
+/*Homepage*/
+
+  /*director & rating text uses h9*/
+
+  /*movie title text*/
+  h15{
+    color: #ffffff;
+    font-size: 80px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+     font-style: normal;
+     }
+
+  /*Short description if movie text uses h6*/
+
+  /*button text text*/
+  h14{
+    color: #ffffff;
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    }
+
+  /*trending now, popular, ect. filleter active text*/
+  h16{
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    }
+
+  /*trending now, popular, ect. filleter non-active text uses h6*/
+
+  /*action, adventure, ect. filleter active text uses h3*/
+
+  /*action, adventure, ect. filleter non-active text*/
+  h13{
+    color: #ffffff;
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    }
+
+  /*movie title (card) text uses h12*/
+
+  /*YEAR,rating & button text uses h9*/
+
+/*Iwan*/
+
+/*Library*/
+
+  /*gender, year, IMBD score dropdown menu text uses h6*/
+
+  /*movie title (card) text uses h12*/
+
+  /*YEAR,rating & button text uses h9*/
