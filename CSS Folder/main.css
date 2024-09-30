@@ -13,7 +13,6 @@
             background-color: #8C8D93;
             height: 112px;
             width: 100%;
-            margin: 0 0 0 7.5%;
             border-radius: 0px;
         }
 
@@ -65,72 +64,28 @@
             color: #ffffff;
         }
 
-        .imgTextOverlay {
-            background-image: url(../Assets/Images/homePageHeader.png);
-            width: 100%;
-            height: 968px;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            padding: 20px;                      /*....*/
-            position: relative;
-            text-align: left;
-            color: #000000;
-            font-size: 48px;
-        }
-
-        .leftHeadingText h3{                        /*....*/
-            position: absolute;
+        .leftHeadingText {                        /*....*/
             font-family: 'Poppins',sans-serif;
-            top: 90%;
-            left: 30%;
-            transform: translate(-50%, -50%);
             font-size: 80px;
             font-weight: bold;
             color: #ffffff;
         }
 
-        .upperLeftSubtext h3{                        /*....*/
-            position: absolute;
+        .upperLeftSubtext {                        /*....*/
             font-family: 'Poppins',sans-serif;
-            top: 90%;
-            left: 30%;
-            transform: translate(-50%, -50%);
             font-size: 16px;
             font-weight: light;
             color: #ffffff;
         }
 
-        .lowerLeftSubtext h3{                        /*....*/
-            position: absolute;
+        .lowerLeftSubtext {                        /*....*/
             font-family: 'Poppins',sans-serif;
-            top: 90%;
-            left: 30%;
-            transform: translate(-50%, -50%);
             font-size: 24px;
             font-weight: regular;
             color: #ffffff;
         }
 
-        .linkText a{
-            font-family: 'Poppins',sans-serif;
-            font-weight: light;
-            font-size: 24px;
-            color: #ffffff;
-            margin-bottom: 0px;
-            text-align: center;
-        }
-
-        .linkText a.active {
-            font-family: 'Poppins',sans-serif;
-            font-weight: bold;
-            font-size: 24px;
-            color: #ffffff;
-            margin-bottom: 0px;
-            text-align: center;
-        }
-
-        .cardTitleText a {
+        .cardTitleText {
             font-family: 'Poppins',sans-serif;
             font-weight: regular;                   /*....*/
             font-size: 24px;
@@ -139,7 +94,7 @@
             text-align: left;
         }
 
-        .cardTextLeft a {
+        .cardTextLeft {
             font-family: 'Poppins',sans-serif;
             font-weight: regular;                   /*....*/
             font-size: 16px;
@@ -148,7 +103,7 @@
             text-align: left;
         }
 
-        .cardTextRight a {
+        .cardTextRight {
             font-family: 'Poppins',sans-serif;
             font-weight: regular;                      /*....*/
             font-size: 16px;
@@ -168,6 +123,14 @@
             border-radius: 5px;
             height: 65px;
             width: 270px;
+         }
+
+         .headerButton1 a{
+            font-family: 'Poppins',sans-serif;
+            font-weight: bold;
+            font-size: 28px;
+            color: #ffffff;
+            
          }
          
         .headerButton1:hover { /*Use appropriate colors*/
@@ -210,6 +173,7 @@
         .genreButton:hover { /*Use appropriate colors*/
             background-color: #F2CD00;
             color: #121212;
+            opacity: 75%;
            } 
 
         .genreButton a.active {  /*Not sure how to name this*/
@@ -251,3 +215,222 @@
     /* Page .... */
 
         /* CSS Type */
+
+
+
+
+
+
+
+
+        /*Andre Coding*/
+
+/*all text */
+
+  /*nav text*/
+
+    /*links to other pages non-active text*/
+
+    body{
+        background-color: #232531;
+    }
+
+    h6{
+        color: #ffffff;
+        font-size: 24px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        }
+   
+        /*links to other pages active text*/
+        h11{
+         color: #ffffff;
+         font-size: 28px;
+         font-family: "Poppins", sans-serif;
+         font-weight: 700;
+         font-style: normal;
+         }
+       
+       /*ENG text*/
+       h7{
+         color: #ffffff;
+         font-size: 24px;
+         font-family: "Poppins", sans-serif;
+         font-weight: 500;
+         font-style: normal;
+         }
+   
+   
+     /*andre*/
+     /*sign-in page*/
+  
+   
+       /*welcome header text*/
+       h1{
+        color: #ffffff;
+        font-size: 40px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        text-align: center;
+        }
+   
+   
+       /*email and password text*/
+       h2{
+        color: #BAB6B6;
+        font-size: 22px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        }
+   
+   
+       /*log in button text*/
+       h3{
+        color: #ffffff;
+        font-size: 22px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        }
+   
+       /*Don’t have an account? text*/
+       h4{
+        color: #BAB6B6;
+        font-size: 16px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        }
+   
+   
+   
+       /*sign up page link text*/
+       h5{
+         color: #ffffff;
+         font-size: 16px;
+         font-family: "Poppins", sans-serif;
+         font-weight: 700;
+         font-style: normal;
+         }
+   
+   
+     /*sign up text*/
+   
+       /*sign-up page link text*/
+       h10{
+         color: #ffffff;
+         font-size: 40px;
+         font-family: "Poppins", sans-serif;
+         font-weight: 600;
+         font-style: normal;
+         }
+         
+       /*username.ect text uses h2*/
+   
+       /*sign up button text uses h3*/
+   
+       /*Already have an account? text uses h4*/
+   
+       /*log in page link text uses h5*/
+   
+     /*watch-list page*/
+   
+       /*movie title (card) text*/
+       h12{
+         color: #ffffff;
+         font-size: 24px;
+         font-family: "Poppins", sans-serif;
+         font-weight: 400;
+         font-style: normal;
+         }
+   
+       /*YEAR,rating & button text*/
+       h9{
+         color: #ffffff;
+         font-size: 16px;
+         font-family: "Poppins", sans-serif;
+         font-weight: 300;
+         font-style: normal;
+         }
+   
+     /*Juliette*/
+   
+     /*individual*/
+   
+       /*movie title text*/
+       h8{
+         color: #ffffff;
+         font-size: 64px;
+         font-family: "Poppins", sans-serif;
+         font-weight: 700;
+         font-style: normal;
+         }
+   
+       /*director,cast,ect. text uses h6*/
+   
+       /*button text uses h3*/
+   
+   /*Bianca*/
+   
+   /*Homepage*/
+   
+     /*director & rating text uses h9*/
+   
+     /*movie title text*/
+     h15{
+       color: #ffffff;
+       font-size: 80px;
+       font-family: "Poppins", sans-serif;
+       font-weight: 700;
+        font-style: normal;
+        }
+   
+     /*Short description if movie text uses h6*/
+   
+     /*button text text*/
+     h14{
+       color: #ffffff;
+       font-size: 28px;
+       font-family: "Poppins", sans-serif;
+       font-weight: 700;
+       font-style: normal;
+       }
+   
+     /*trending now, popular, ect. filleter active text*/
+     h16{
+       color: #ffffff;
+       font-size: 24px;
+       font-family: "Poppins", sans-serif;
+       font-weight: 700;
+       font-style: normal;
+       }
+   
+     /*trending now, popular, ect. filleter non-active text uses h6*/
+   
+     /*action, adventure, ect. filleter active text uses h3*/
+   
+     /*action, adventure, ect. filleter non-active text*/
+     h13{
+       color: #ffffff;
+       font-size: 22px;
+       font-family: "Poppins", sans-serif;
+       font-weight: 500;
+       font-style: normal;
+       }
+   
+     /*movie title (card) text uses h12*/
+   
+     /*YEAR,rating & button text uses h9*/
+   
+   /*Iwan*/
+   
+   /*Library*/
+   
+     /*gender, year, IMBD score dropdown menu text uses h6*/
+   
+     /*movie title (card) text uses h12*/
+   
+     /*YEAR,rating & button text uses h9*/
